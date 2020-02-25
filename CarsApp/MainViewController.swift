@@ -25,15 +25,15 @@ class MainViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomTableViewCell
         
-        cell.textLabel?.text = carNames[indexPath.row]
-        cell.imageView?.image = UIImage(named: carNames[indexPath.row])
-        cell.imageView?.layer.cornerRadius = cell.frame.size.height / 2
-        cell.imageView?.clipsToBounds = true
+        cell.markLabel.text = carNames[indexPath.row]
+        cell.imageOfCars.image = UIImage(named: carNames[indexPath.row])
+        cell.imageOfCars.layer.cornerRadius = cell.imageOfCars.frame.size.height / 2
+        cell.imageOfCars.clipsToBounds = true
         
         return cell
-    }
+    } 
     
     // MARK: - Table view delegate
     
