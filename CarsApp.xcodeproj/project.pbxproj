@@ -14,6 +14,8 @@
 		F998C95824044DBA004A088D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F998C95624044DBA004A088D /* LaunchScreen.storyboard */; };
 		F998C96024044EC5004A088D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998C95F24044EC5004A088D /* MainViewController.swift */; };
 		F998C9632404EF98004A088D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998C9622404EF98004A088D /* CustomTableViewCell.swift */; };
+		F998C9652404F706004A088D /* СarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998C9642404F706004A088D /* СarModel.swift */; };
+		F998C96724051148004A088D /* NewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998C96624051148004A088D /* NewCarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F998C95924044DBA004A088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F998C95F24044EC5004A088D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F998C9622404EF98004A088D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F998C9642404F706004A088D /* СarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СarModel.swift"; sourceTree = "<group>"; };
+		F998C96624051148004A088D /* NewCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				F998C94B24044DB8004A088D /* AppDelegate.swift */,
 				F998C94D24044DB8004A088D /* SceneDelegate.swift */,
 				F998C95F24044EC5004A088D /* MainViewController.swift */,
+				F998C96624051148004A088D /* NewCarViewController.swift */,
+				F998C9642404F706004A088D /* СarModel.swift */,
 				F998C9622404EF98004A088D /* CustomTableViewCell.swift */,
 				F998C95124044DB8004A088D /* Main.storyboard */,
 				F998C95424044DBA004A088D /* Assets.xcassets */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F998C96724051148004A088D /* NewCarViewController.swift in Sources */,
 				F998C96024044EC5004A088D /* MainViewController.swift in Sources */,
 				F998C94C24044DB8004A088D /* AppDelegate.swift in Sources */,
+				F998C9652404F706004A088D /* СarModel.swift in Sources */,
 				F998C9632404EF98004A088D /* CustomTableViewCell.swift in Sources */,
 				F998C94E24044DB8004A088D /* SceneDelegate.swift in Sources */,
 			);
@@ -288,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CarsApp/Info.plist;
@@ -307,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CarsApp/Info.plist;
